@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="iconv">
+      <UniqueIdentifier>{b83773cd-2a2f-4904-99f1-4f67d9fe652d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iconv\include">
+      <UniqueIdentifier>{78e234e3-1fcb-414e-94ea-efad13ba60e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iconv\lib">
+      <UniqueIdentifier>{c96a25f6-f35e-4b6b-992c-9a9332932095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{bbf3ca7e-ba21-4cbf-bae0-ff799187f0b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iconv\include\iconv.h">
+      <Filter>iconv\include</Filter>
+    </ClInclude>
+    <ClInclude Include="iconv\include\sciconv.h">
+      <Filter>iconv\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="iconv\lib\libiconv.lib">
+      <Filter>iconv\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iconv\sciconv.c">
+      <Filter>iconv</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

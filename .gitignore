@@ -1,0 +1,30 @@
+# 忽略上传的文件夹
+/Debug
+/Release
+/x64
+/iconv_window/Debug
+/iconv_window/Release
+/iconv_window/x64
+/iconv_test/Debug
+/iconv_test/Release
+/iconv_test/x64
+/.vs
+
+# 忽略上传的文件
+*.swp
+*.opendb
+*.db
+*.exe
+*.out
+*~
+*.iobj
+*.ipdb
+*.pdb
+*.pch
+*.ilk
+*.log
+-p
+*.err
+*.out
+~*
+*.data
