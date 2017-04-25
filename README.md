@@ -6,8 +6,8 @@
     项目发起人 : simplec - wz | wangzhione@163.com
 
 ### 额外补充: 
-    iconv_window : 是 libiconv 静态库的项目目录
-    更多细节可以参照 : iconv_window/ReadMe.txt
+    libiconv : 是 libiconv 静态库的项目目录
+    更多细节可以参照 : libiconv/ReadMe.txt
     iconv_test : 是利用静态库构建的一个测试项目. 并构建了一个 sciconv.h 帮助接口, 方便使用.
 
 ### 所做的工作:
