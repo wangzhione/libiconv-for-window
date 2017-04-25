@@ -23,16 +23,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="iconv\lib\libiconv.lib">
-      <Filter>iconv\lib</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="iconv\sciconv.c">
       <Filter>iconv</Filter>
     </ClCompile>
     <ClCompile Include="test.c">
       <Filter>main</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="iconv\lib\libiconv.lib">
+      <Filter>iconv\lib</Filter>
+    </Library>
   </ItemGroup>
 </Project>

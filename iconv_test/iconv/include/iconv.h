@@ -53,6 +53,14 @@ typedef void * iconv_t;
 /* Get errno declaration and values. */
 #include <errno.h>
 
+/*
+ * 这里开始在VS中引用 静态库,减少依赖VS手动添加
+ * wz,对这个iconv.h 进行大部分重构
+ */
+#if defined(_MSC_VER)
+#pragma comment(lib, "libiconv.lib")
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif

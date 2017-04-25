@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iconv_window", "iconv_window\iconv_window.vcxproj", "{DFEC9E6A-B223-4907-9C69-935A054DCFE8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libiconv", "libiconv\libiconv.vcxproj", "{DFEC9E6A-B223-4907-9C69-935A054DCFE8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iconv_test", "iconv_test\iconv_test.vcxproj", "{9D9041C3-7775-4AEE-BC97-CBC3BC581321}"
 EndProject
